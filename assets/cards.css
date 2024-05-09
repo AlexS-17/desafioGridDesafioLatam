@@ -1,0 +1,37 @@
+/* Cuarto requisito: utilizar flexbox para la construcción de las tarjetas de productos */
+/* Anteriormente las había hecho con grids, convertí todo a flexbox para cumplir con el requisito */
+.pixelexCard {
+  display: flex;
+  border: solid 1px #212529;
+  border-radius: 0 10px 10px 0;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.pixelexCard img {
+  width: 100%;
+  height: 270px;
+  border-radius: 0 8px 0 0;
+}
+
+.pixelexCard h3,
+.pixelexCard p {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.pixelexCard p {
+  color: #6c757d;
+}
+
+.pixelexCard button {
+  background-color: #ff477e;
+  color: #f8f9fa;
+  border: none;
+  border-radius: 0 0 8px 0;
+  padding: 5px;
+  width: 100%;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

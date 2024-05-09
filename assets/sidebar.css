@@ -1,0 +1,28 @@
+/* Tercer requisito: utilizar flexbox para la distribución de la barra lateral  */
+.sidebar h2 {
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar li {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  align-items: center; 
+}
+
+.sidebar .itemSideBar {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .itemSideBar span {
+  font-size: 0.8em;
+}
+
+.sidebar p {
+  color: #6c757d;
+  font-size: 0.8em;
+  margin-left: 5px; 
+}
